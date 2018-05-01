@@ -13,11 +13,7 @@ public class Tablica {
             System.out.println("Podaj imie gnojó: ");
             tablica[i]=inp.nextLine();
             }//petla
-
-        for(int i = 0;i<dlugosc; i++){
-            drukuj(tablica[i]);
-
-        }
+        
     }//main
 
     public static void drukuj(String inna_nazwa_bo_moge){
